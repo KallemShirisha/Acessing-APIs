@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <script src="weather.js"></script>
+    <style>
+        body {
+  background: url("https://superdevresources.com/wp-content/uploads/2014/02/Weather-Api.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        .c1{
+            border-radius: 50%;
+            padding: 20px 32px;
+        
+            background-color:goldenrod;
+        }
+        label{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body >
+    <div align="center">
+    <label>City:</label><input type="text" id="city"><br><br>
+    
+    <button class="c1" onclick="display()" >FETCH</button>
+
+    <div id="tempTable">
+
+    </div>
+</div>
+</body>
+</html>
